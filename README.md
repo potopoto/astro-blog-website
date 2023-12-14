@@ -1,4 +1,14 @@
-# This is a reminder: Astro Starter Kit: Minimal
+# Potopoblog
+## Let's make a blog with Astro
+
+So this is the plan:
+*Phase 01* - make blog mechanics and architecture
+*Phase 02* - add some css, at this point the blog can go online
+*Phase 03* - integrate with some CMS (see Astro documentation), ideally the CSM can be deployed on any server/hosting
+*Phase 04* - let's make it cool (hyperplexed video)
+*Phase 05* - 
+
+# Astro Starter Kit: Minimal
 
 ```sh
 npm create astro@latest -- --template minimal

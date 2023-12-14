@@ -1,5 +1,5 @@
 ---
-title: My Second Blog Post
+title: D-HUB studios L.A. drawing
 author: Astro Learner
 description: "After learning some Astro, I couldn't stop!"
 image:

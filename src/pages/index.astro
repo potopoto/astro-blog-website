@@ -1,5 +1,7 @@
 ---
-
+import '../styles/global.css';
+import Navigation from '../components/Navigation.astro';
+const pageTitle = "The Blank Page";
 ---
 
 <html lang="en">
@@ -11,12 +13,8 @@
 		<title>Astro</title>
 	</head>
 	<body>
-		<a href="/">Home</a>
-		<a href="/about/">About</a>
-		<a href="/blog/">Blog</a>
-	  
-		<h1>Potopoblog</h1>
-		<h1>MAll quiet on the eastern front</h1>
+	  <Navigation/>
+		<h2>{pageTitle}</h2>
 		<p>This is where I will post about my journey learning Astro.</p>
 	  </body>
 </html>
