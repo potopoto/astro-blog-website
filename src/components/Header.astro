@@ -7,10 +7,12 @@ import Navigation from '../components/Navigation.astro';
     <meta charset="utf-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width" />
-    <title>Astro</title>
+    <title>Potopoblog</title>
     <ViewTransitions />
 </head>
 <body>
-    <h1>Potopoblog</h1>
-    <Navigation/>
-    <div transition:animate="slide" class="main" >
+    <div class="header">
+        <img src="/images/potopoto_logo.png" alt="Logo">
+        <h1>Potopoblog</h1>
+        <Navigation/>
+    </div>

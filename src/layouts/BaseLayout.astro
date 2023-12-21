@@ -7,5 +7,7 @@ const { pageTitle } = Astro.props;
 ---
 
 <Header/>
+<div transition:animate="slide" class="main" >
         <slot />
+        </div>
 <Footer />
