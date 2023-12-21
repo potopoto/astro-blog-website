@@ -1,13 +1,9 @@
 ---
-import '../styles/global.css';
-import Header from '../components/Header.astro';
-import Navigation from '../components/Navigation.astro';
-import Footer from '../components/Footer.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
 const pageTitle = "Contact";
 ---
 
-<Header/>
-	<Navigation/>
+<BaseLayout>
   <h2>{pageTitle}</h2>
   <p>And now for something completely different</p>
-<Footer />
+</BaseLayout>

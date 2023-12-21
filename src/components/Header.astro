@@ -1,5 +1,6 @@
 ---
 import { ViewTransitions } from "astro:transitions"
+import Navigation from '../components/Navigation.astro';
 ---
 <html lang="en">
 <head>
@@ -10,4 +11,6 @@ import { ViewTransitions } from "astro:transitions"
     <ViewTransitions />
 </head>
 <body>
+    <h1>Potopoblog</h1>
+    <Navigation/>
     <div transition:animate="slide" class="main" >

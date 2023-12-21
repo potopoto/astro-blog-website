@@ -1,16 +1,17 @@
 ---
-import '../styles/global.css';
-import Header from '../components/Header.astro';
-import Navigation from '../components/Navigation.astro';
-import Footer from '../components/Footer.astro';
+import BaseLayout from '../layouts/BaseLayout.astro';
 const pageTitle = "The Blank Page";
 ---
-
-<Header/>
-	<Navigation/>
+<BaseLayout>
 	<h2>Cover: {pageTitle}</h2>
 	<p>This is where I will post about my journey learning Astro.</p>
 	<h3>Featured post</h3>
 	<p>...</p>
 	<h3>Last three posts</h3>
-<Footer />
+	<img src="/images/potopoto_logo.png" alt="Logo">
+	<ul>
+		<li><a href="/posts/post-1/">Post 1</a></li>
+		<li><a href="/posts/post-2/">Post 2</a></li>
+		<li><a href="/posts/post-3/">Post 3</a></li>
+	</ul>
+</BaseLayout>
