@@ -1,13 +1,12 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
-title: D-HUB studios L.A. drawing
-author: Astro Learner
-description: "After learning some Astro, I couldn't stop!"
+title: 'D-HUB studios L.A. drawing'
+author: Otto P.
+description: "Invitation pour l'event D-HUB studios à Los Angeles"
 image:
     url: "https://docs.astro.build/assets/arc.webp"
-    alt: "Thumbnail of Astro arcs."
+    alt: "Invitation pour l'event D-HUB studios à Los Angeles"
 pubDate: 2022-07-08
-tags: ["astro", "blogging", "learning in public", "successes"]
+tags: ["illustration"]
 ---
-After a successful first week learning Astro, I decided to try some more. I wrote and imported a small component from memory!
-<img src="/images/potopoto_logo.png" alt="Logo">
+Jeter un oeil sur le site de la D-HUB studios: 

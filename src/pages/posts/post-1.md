@@ -5,9 +5,9 @@ pubDate: 2022-07-01
 description: 'This is the first post of my new Astro blog.'
 author: 'potopoto'
 image:
-    url: 'https://docs.astro.build/assets/full-logo-light.png'
+    url: '/images/mickey-ducational.jpg'
     alt: 'The full Astro logo.'
-tags: ["astro", "blogging", "learning in public"]
+tags: ["art", "cover"]
 ---
 # This is the modified title
 

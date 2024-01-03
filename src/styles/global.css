@@ -1,14 +1,17 @@
 html {
     background-color: #f1f5f9;
-    /* font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; */
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
   
   body {
     margin: 0 auto;
     width: 100%;
-    max-width: 80ch;
+    max-width: 100ch;
+    height: 100vh;
     padding: 1rem;
     line-height: 1.5;
+    display: flex;
+    flex-direction: column;
   }
   
   * {
@@ -23,6 +26,11 @@ html {
   .header img {
     width: 52px;
     height: 34px;
+    margin-right: 20px;
+  }
+
+  .header h1 {
+    text-transform: uppercase;
   }
 
   .header{
@@ -34,4 +42,15 @@ html {
 
   .main_navigation {
     margin-left: auto;
+  }
+
+  .main_navigation a{
+    margin: 0 5px;
+  }
+
+  .blogpost_item img {
+    width: 200px;
+  }
+  footer {
+    margin-top: auto;
   }
