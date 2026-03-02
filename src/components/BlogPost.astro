@@ -1,9 +1,9 @@
 ---
 const { title, url, pubDate, image } = Astro.props;
-
 ---
 
 <li class="blogpost_item">
-    <img src={image.url} alt={image.alt}>
-    <a href={url}>{title}</a> | <span>{pubDate}</span> 
+    <a href={url}><img src={image.url} alt={image.alt} /></a>
+    <a href={url}>{title}</a>
+    <div>{pubDate}</div>
 </li>
