@@ -1,0 +1,24 @@
+.header img {
+    width: 52px;
+    height: 34px;
+    margin-right: 20px;
+}
+
+.header h1 {
+    text-transform: uppercase;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+
+.main_navigation {
+    margin-left: auto;
+}
+
+.main_navigation a {
+    margin: 0 5px;
+}

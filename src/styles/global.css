@@ -1,3 +1,8 @@
+@import "./typography.css";
+@import "./header.css";
+@import "./footer.css";
+@import "./blog.css";
+
 html {
     background-color: #f1f5f9;
     font-family:
@@ -26,55 +31,4 @@ body {
 
 * {
     box-sizing: border-box;
-}
-
-h1 {
-    margin: 1rem 0;
-    font-size: 2.5rem;
-}
-
-.header img {
-    width: 52px;
-    height: 34px;
-    margin-right: 20px;
-}
-
-.header h1 {
-    text-transform: uppercase;
-}
-
-.header {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: start;
-}
-
-.main_navigation {
-    margin-left: auto;
-}
-
-.main_navigation a {
-    margin: 0 5px;
-}
-
-.blogpost_list {
-    list-style: none;
-    padding: 0;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 1rem;
-}
-.blogpost_item {
-    display: flex;
-    flex-direction: column;
-}
-.blogpost_item img {
-    width: 100%;
-    height: 100%;
-    aspect-ratio: 16/9;
-    object-fit: cover;
-}
-footer {
-    margin-top: auto;
 }

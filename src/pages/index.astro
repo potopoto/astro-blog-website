@@ -4,7 +4,7 @@ import BlogPost from "../components/BlogPost.astro";
 
 // Show Last 3 blog articles
 const allPosts = await Astro.glob("../pages/posts/*.md");
-const limitPosts = 3;
+const limitPosts = 6;
 const lastPosts = allPosts.slice(0, limitPosts);
 
 // Show COVER article
@@ -20,11 +20,13 @@ const coverPost = getCoverPost(allPosts);
 
 <BaseLayout>
     <h2>Cover: {coverPost.frontmatter.title}</h2>
-    <img
-        src={coverPost.frontmatter.image.url}
-        width="100%"
-        alt={coverPost.frontmatter.image.alt}
-    />
+    <a href={coverPost.url}
+        ><img
+            src={coverPost.frontmatter.image.url}
+            width="100%"
+            alt={coverPost.frontmatter.image.alt}
+        /></a
+    >
     <h3>Last three posts</h3>
     <ul class="blogpost_list">
         {
