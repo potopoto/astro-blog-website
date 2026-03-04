@@ -3,7 +3,7 @@ const { title, url, pubDate, image } = Astro.props;
 ---
 
 <li class="blogpost_item">
-    <a href={url}><img src={image.url} alt={image.alt} /></a>
+    <a href={url}>{image && <img src={image.url} alt={image.alt} />}</a>
     <a href={url}>{title}</a>
     <div>{pubDate}</div>
 </li>
