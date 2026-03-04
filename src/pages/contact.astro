@@ -1,9 +1,13 @@
 ---
-import BaseLayout from '../layouts/BaseLayout.astro';
+import BaseLayout from "../layouts/BaseLayout.astro";
 const pageTitle = "Contact";
+const contactEmail = "info@potopoto.be";
 ---
 
 <BaseLayout>
-  <h2>{pageTitle}</h2>
-  <p>And now for something completely different</p>
+    <h2>{pageTitle}</h2>
+    <p>
+        You can write me here: <a href="mailto:{contactEmail}"
+            >{contactEmail}</a>
+    </p>
 </BaseLayout>
