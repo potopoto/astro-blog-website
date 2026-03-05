@@ -27,14 +27,14 @@ const { posts } = Astro.props;
 ---
 
 <BaseLayout pageTitle={tag}>
-    <p>Posts tagged with {tag}</p>
-    <ul>
+    <p>Posts tagged with <strong>{tag}</strong></p>
+    <ul class="blogpost_list">
         {
             posts.map((post: any) => (
                 <BlogPost
                     url={post.url}
                     title={post.frontmatter.title}
-                    pubDate={post.frontmatter.pubDate}
+                    pubDate={post.frontmatter.pubDate.slice(0, 10)}
                     image={post.frontmatter.image}
                 />
             ))

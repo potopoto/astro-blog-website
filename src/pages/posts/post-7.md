@@ -7,7 +7,7 @@ author: 'potopoto'
 image:
     url: '/images/mickey-ducational.jpg'
     alt: 'The full Astro logo.'
-tags: ["art", "cover"]
+tags: ["art"]
 ---
 ## This is the modified title
 

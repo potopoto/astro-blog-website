@@ -15,6 +15,7 @@ const allPosts = await Astro.glob("../pages/posts/*.md");
                 <BlogPost
                     url={post.url}
                     title={post.frontmatter.title}
+                    pubDate={post.frontmatter.pubDate.slice(0, 10)}
                     image={post.frontmatter.image}
                 />
             ))
