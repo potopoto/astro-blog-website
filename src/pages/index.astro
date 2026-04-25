@@ -4,7 +4,7 @@ import BlogPost from "../components/BlogPost.astro";
 
 // Show Last 3 blog articles
 const allPosts = await Astro.glob("../pages/posts/*.md");
-const limitPosts = 6;
+const limitPosts = 3;
 const lastPosts = allPosts.slice(0, limitPosts);
 
 // Show COVER article
