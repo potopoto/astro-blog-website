@@ -5,9 +5,9 @@ author: Otto P.
 description: "Some drawings of the MAXXI museum in Rome"
 image:
     url: '/images/maxxi_01.jpg'
-    alt: 'Digital painting of the MAXXI in Rome'
+    alt: 'Digital drawings of the MAXXI in Rome'
 pubDate: 2022-07-08
-tags: ["illustration"]
+tags: ["Digital painting"]
 ---
 
 ![Some drawings of the MAXXI museum in Rome](/images/maxxi_04.jpg)

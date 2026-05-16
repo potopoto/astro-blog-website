@@ -15,3 +15,7 @@
     aspect-ratio: 16/9;
     object-fit: cover;
 }
+
+.blogpost_content img{
+    margin-bottom: 2rem;
+}
